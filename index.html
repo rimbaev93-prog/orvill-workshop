@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Orvill Workshop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>ORVILL WORKSHOP</h1>
+  <p>3D Printing • Auto Parts • Electronics</p>
+</header>
+
+<nav>
+  <button onclick="showPage('home')">Главная</button>
+  <button onclick="showPage('auto')">Автозапчасти</button>
+</nav>
+
+<!-- ГЛАВНАЯ -->
+<section id="home" class="page active">
+  <h2>Добро пожаловать</h2>
+  <p>Это лаборатория Orvill. Здесь мы тестируем и разрабатываем 3D детали для авто и техники.</p>
+</section>
+
+<!-- АВТОЗАПЧАСТИ -->
+<section id="auto" class="page">
+
+  <h2>Автозапчасти</h2>
+
+  <input type="file" id="fileInput" accept="image/*">
+  <button onclick="uploadPhoto()">Загрузить фото</button>
+
+  <div id="gallery"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

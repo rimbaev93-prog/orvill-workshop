@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #111;
+  color: white;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: #222;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #444;
+}
